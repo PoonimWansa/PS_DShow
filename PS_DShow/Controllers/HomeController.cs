@@ -26,5 +26,13 @@ namespace PS_DShow.Controllers
 
             return View();
         }
+
+        public ActionResult Pageshow()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
